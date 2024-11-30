@@ -1,0 +1,78 @@
+[
+    {
+        "descripcion": "MARCADORES - CONTENEDOR",
+        "contenedor": "contenedorJuego",
+        "elemento": "div",
+        "id": "marcadores" 
+    },
+    {
+        "descripcion": "CONFIGURACION - CONTENEDOR",
+        "contenedor": "contenedorJuego",
+        "elemento": "aside",
+        "id": "configuracion"
+    },
+    {
+        "descripcion": "",
+        "contenedor": "configuracion",
+        "elemento": "form",
+        "id": "formConfig"
+    },
+    {
+        "descripcion": "",
+        "contenedor": "formConfig",
+        "elemento": "label",
+        "id": "configFilas",
+        "titulo": "Filas"
+    },
+    {
+        "descripcion": "",
+        "contenedor": "configFilas",
+        "elemento": "input",
+        "id": "rangoFilas",
+        "tipo": "range",
+        "min": 20,
+        "max": 40,
+        "step": 4,
+        "value": 10
+    },
+    {
+        "descripcion": "",
+        "contenedor": "configFilas",
+        "elemento": "input",
+        "id": "infoFilas",
+        "tipo": "text"
+    },
+
+    {
+        "descripcion": "",
+        "contenedor": "formConfig",
+        "elemento": "label",
+        "id": "configColumnas",
+        "titulo": "Columnas"
+    },
+    {
+        "descripcion": "",
+        "contenedor": "configColumnas",
+        "elemento": "input",
+        "id": "rangoColumnas",
+        "tipo": "range",
+        "min": 10,
+        "max": 30,
+        "step": 4,
+        "value": 10
+    },
+    {
+        "descripcion": "",
+        "contenedor": "configColumnas",
+        "elemento": "input",
+        "id": "infoColumnas",
+        "tipo": "text"
+    },
+
+    {
+        "descripcion": "TABLERO - CONTENEDOR",
+        "contenedor": "contenedorJuego",
+        "elemento": "div",
+        "id": "tablero"
+    }
+]
