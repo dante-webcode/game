@@ -21,58 +21,53 @@
         "descripcion": "",
         "contenedor": "formConfig",
         "elemento": "label",
-        "id": "configFilas",
-        "titulo": "Filas"
+        "id": "configFilas"
     },
     {
         "descripcion": "",
         "contenedor": "configFilas",
         "elemento": "input",
         "id": "rangoFilas",
-        "tipo": "range",
-        "min": 20,
-        "max": 40,
+        "type": "range",
+        "min": 16,
+        "max": 160,
         "step": 4,
         "value": 10
     },
     {
         "descripcion": "",
         "contenedor": "configFilas",
-        "elemento": "input",
-        "id": "infoFilas",
-        "tipo": "text"
+        "elemento": "span",
+        "id": "infoFilas"
     },
-
     {
         "descripcion": "",
         "contenedor": "formConfig",
         "elemento": "label",
-        "id": "configColumnas",
-        "titulo": "Columnas"
+        "id": "configColumnas"
     },
     {
         "descripcion": "",
         "contenedor": "configColumnas",
         "elemento": "input",
         "id": "rangoColumnas",
-        "tipo": "range",
-        "min": 10,
-        "max": 30,
-        "step": 4,
+        "type": "range",
+        "min": 28,
+        "max": 34,
+        "step": 2,
         "value": 10
     },
     {
         "descripcion": "",
         "contenedor": "configColumnas",
-        "elemento": "input",
-        "id": "infoColumnas",
-        "tipo": "text"
+        "elemento": "span",
+        "id": "infoColumnas"
     },
 
     {
         "descripcion": "TABLERO - CONTENEDOR",
         "contenedor": "contenedorJuego",
         "elemento": "div",
-        "id": "tablero"
+        "id": "contenedorTablero"
     }
 ]
